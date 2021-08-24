@@ -77,7 +77,7 @@ const MerchDetails = () => {
               </ButtonBase>
             </Grid>
 
-            <div style={{ display: "block" }}>
+            <div style={{ display: "block", textAlign: "center" }}>
               <div>
                 <Grid item xs={12} sm container>
                   <Grid item xs container direction="column" spacing={2}>

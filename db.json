@@ -9,11 +9,32 @@
       "status": false,
       "likes": [
         "oikawa@gmail.com",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         "kageyama@gmail.com"
       ],
       "id": 1,
       "comments": [
-        {}
+        {},
+        {
+          "email": "kageyama@gmail.com",
+          "comment": "heeellloo",
+          "date": "8/24/2021, 3:06:08 PM"
+        },
+        {
+          "email": "bado.kuldzhanova@gmail.com",
+          "comment": "jhvhjvj",
+          "date": "8/24/2021, 7:01:34 PM"
+        }
       ]
     },
     {
@@ -28,7 +49,13 @@
         "kageyama@gmail.com"
       ],
       "id": 2,
-      "comments": []
+      "comments": [
+        {
+          "email": "kageyama@gmail.com",
+          "comment": "hello",
+          "date": "8/24/2021, 12:17:10 PM"
+        }
+      ]
     },
     {
       "title": "FULL DRAGON T-SHIRT",
@@ -68,7 +95,18 @@
         "kageyama@gmail.com"
       ],
       "id": 5,
-      "comments": []
+      "comments": [
+        {
+          "email": "kageyama@gmail.com",
+          "comment": "hello",
+          "date": "8/24/2021, 11:03:49 AM"
+        },
+        {
+          "email": "kageyama@gmail.com",
+          "comment": "whatsaaaapp",
+          "date": "8/24/2021, 11:04:50 AM"
+        }
+      ]
     },
     {
       "title": "SATURDAY HOODIE",
@@ -188,7 +226,9 @@
       "price": "30",
       "description": "THE TWENTY ONE PILOTS 'TRENCH BIRD T-SHIRT FEATURES 'TWENTY ONE PILOTS' WRITTEN IN YELLOW ON THE FRONT IN FRONT OF THE TRENCH BIRD DESIGN. THIS DESIGN IS PRINTED ON A UNISEX GREEN T-SHIRT.",
       "status": false,
-      "likes": [],
+      "likes": [
+        null
+      ],
       "id": 15,
       "comments": []
     },

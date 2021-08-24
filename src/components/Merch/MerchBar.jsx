@@ -125,7 +125,8 @@ const MerchBar = () => {
               />
               <FormControlLabel
                 style={{
-                  backgroundColor: "#595b3c",
+                  // backgroundColor: "#595b3c",
+                  backgroundColor: "rgb(234, 225,110)",
                   color: "white",
                   width: "18vw",
                   height: "4.5vw",

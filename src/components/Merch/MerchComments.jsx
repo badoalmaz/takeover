@@ -51,7 +51,8 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
   },
   paper_modal: {
-    backgroundColor: theme.palette.background.paper,
+    // backgroundColor: theme.palette.background.paper,
+    backgroundImage: `url(${"https://d2cstorage-a.akamaihd.net/atl/21pilots/livestream/bk-21.jpg"})`,
     // backgroundColor: "black",
     color: "white",
     border: "2px solid #000",
@@ -61,7 +62,9 @@ const useStyles = makeStyles((theme) => ({
   input: {
     // color: "#e8c271",
     // borderRightColor: "#FFF",
-    fontSize: "22 px",
+    fontSize: "22px",
+    // background: "#EC87B2",
+    color: "white",
   },
   input__label: {
     // color: "#f2e49d",
@@ -145,11 +148,11 @@ const MerchComments = () => {
     if (whoIsAuthor(commentixx)) {
       return {
         marginLeft: "100px",
-        maxWidth: "350px",
+        // maxWidth: "350px",
       };
     } else {
       return {
-        maxWidth: "350px",
+        // maxWidth: "350px",
       };
     }
   };
@@ -168,13 +171,21 @@ const MerchComments = () => {
       {productDetails ? (
         <Paper
           style={{
-            backgroundColor: "rgb(208,185,128)",
+            // backgroundColor: "rgb(208,185,128)",
+            outline: "none",
+            border: "none",
             borderRadius: "50px",
             alignText: "center",
+            // backgroundColor: "transparent",
+            backgroundImage: `url(${"https://d2cstorage-a.akamaihd.net/atl/21pilots/livestream/bk-21.jpg"})`,
+            // backdropFilter: "blur(20px) saturate(65%) contrast(160%)",
+            boxShadow: "0 50px 120px -20px rgba(0, 0, 0, 0.8)",
           }}
           className={classes.paper}
         >
-          <h2 style={{ alignText: "center" }}>Comments</h2>
+          <h2 style={{ margin: "2vh 30vw", color: "grey", fontSize: "36px" }}>
+            Comments
+          </h2>
           <Paper
             style={{
               backgroundColor: "#00000000",
@@ -200,13 +211,21 @@ const MerchComments = () => {
                             // width: "100%",
                           }}
                         >
-                          <p style={{ color: "white", fontSize: "28px" }}>
+                          <p
+                            style={{
+                              // color: "#EC87B2",
+                              // color: "rgb(218, 225,110)",
+                              color: "grey",
+                              fontSize: "19px",
+                            }}
+                          >
                             {commentix.email}
                           </p>
                           <p
                             style={{
                               fontSize: "12px",
-                              color: "white",
+                              // color: "white",
+                              color: "grey",
                               marginLeft: "10px",
                             }}
                           >
@@ -216,7 +235,11 @@ const MerchComments = () => {
                         <div>
                           <p
                             style={{
-                              color: "black",
+                              // color: "white",
+                              color: "white",
+                              // backgroundColor: " rgba(0, 0, 0, 0.5)",
+
+                              borderRadius: "5px",
                               marginBottom: "2px",
                               fontSize: "24px",
                             }}
@@ -231,9 +254,13 @@ const MerchComments = () => {
                             }
                             style={{
                               transform: "scale(0.7)",
-                              //   color: "#f7a15f",
+                              // color: "#f7a15f",
                               //   backgroundColor: "#3d2740",
                               borderRadius: "5px",
+                              padding: "0",
+                              // color: "#EC87B2",
+                              // color: "rgb(218, 225,110)",
+                              color: "grey",
                             }}
                           >
                             <DeleteIcon />
@@ -247,9 +274,11 @@ const MerchComments = () => {
                             onClick={() => handleOpen()}
                             style={{
                               transform: "scale(0.7)",
-                              //   color: "#f7a15f",
+                              // color: "#EC87B2",
                               //   backgroundColor: "#3d2740",
                               //   borderRadius: "5px",
+                              color: "grey",
+                              padding: "0",
                             }}
                           >
                             <EditIcon />
@@ -272,10 +301,13 @@ const MerchComments = () => {
                           <Fade in={open}>
                             <div className={classes.paper_modal}>
                               <TextField
-                                variant="outlined"
+                                // variant="outlined"
                                 label="Edit Comment"
-                                color="white"
-                                style={{ width: "450px" }}
+                                color="secondary"
+                                style={{
+                                  width: "450px",
+                                  background: "#EC87B2",
+                                }}
                                 onChange={(e) => handleInput(e)}
                               />
                               <Button
@@ -307,10 +339,17 @@ const MerchComments = () => {
                   )}
                   <form style={{ margin: "3vw 8vw 0 7vw" }}>
                     <TextField
-                      variant="outlined"
+                      // variant="outlisned"
                       label="Comment"
                       color="secondary"
-                      style={{ width: "90%" }}
+                      style={{
+                        width: "90%",
+                        // backgroundColor: "#EC87B2",
+                        borderColor: "white !important",
+                        color: "white",
+                        borderRadius: "15px",
+                        outline: "none !important",
+                      }}
                       onChange={(e) => handleInput(e)}
                       InputLabelProps={{ className: classes.input__label }}
                       inputProps={{ className: classes.input }}
@@ -334,7 +373,7 @@ const MerchComments = () => {
                     edge="end"
                     aria-label="account of current user"
                     aria-haspopup="true"
-                    color="inherit"
+                    // color="inherit"
                     onClick={() => history.push("/merch")}
                   >
                     back
