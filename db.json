@@ -9,33 +9,11 @@
       "status": false,
       "likes": [
         "oikawa@gmail.com",
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        "kageyama@gmail.com"
+        "kageyama@gmail.com",
+        "bado.kuldzhanova@gmail.com"
       ],
       "id": 1,
-      "comments": [
-        {},
-        {
-          "email": "kageyama@gmail.com",
-          "comment": "heeellloo",
-          "date": "8/24/2021, 3:06:08 PM"
-        },
-        {
-          "email": "bado.kuldzhanova@gmail.com",
-          "comment": "jhvhjvj",
-          "date": "8/24/2021, 7:01:34 PM"
-        }
-      ]
+      "comments": []
     },
     {
       "title": "ELECTRIC BOX T-SHIRT",
@@ -46,16 +24,11 @@
       "status": false,
       "likes": [
         "oikawa@gmail.com",
-        "kageyama@gmail.com"
+        "kageyama@gmail.com",
+        "bado.kuldzhanova@gmail.com"
       ],
       "id": 2,
-      "comments": [
-        {
-          "email": "kageyama@gmail.com",
-          "comment": "hello",
-          "date": "8/24/2021, 12:17:10 PM"
-        }
-      ]
+      "comments": []
     },
     {
       "title": "FULL DRAGON T-SHIRT",
@@ -66,7 +39,8 @@
       "status": false,
       "likes": [
         "oikawa@gmail.com",
-        "kageyama@gmail.com"
+        "kageyama@gmail.com",
+        "bado.kuldzhanova@gmail.com"
       ],
       "id": 3,
       "comments": []
@@ -78,9 +52,7 @@
       "price": "30",
       "description": "THE TWENTY ONE PILOTS 'SURF DRAGON T-SHIRT' FEATURES A SCALED AND ICY DRAGON DESIGN ON THE FRONT OF THE SHIRT. THIS DESIGN IS PRINTED ON A TIE DYE LIGHT BLUE UNISEX T-SHIRT.",
       "status": false,
-      "likes": [
-        "kageyama@gmail.com"
-      ],
+      "likes": ["kageyama@gmail.com"],
       "id": 4,
       "comments": []
     },
@@ -91,22 +63,9 @@
       "price": "30",
       "description": "THE TWENTY ONE PILOTS 'VERTIGO T-SHIRT' FEATURES A CIRCLE DRAGON DESIGN AND 'TWENTY ONE PILOTS SHY AWAY' ON THE FRONT OF THE SHIRT. THE BACK FEATURES A CIRCLE REPEATING DESIGN OF 'SHY AWAY' WITH A DRAGON IN THE MIDDLE. THIS DESIGN IS PRINTED ON A BLACK UNISEX T-SHIRT.",
       "status": false,
-      "likes": [
-        "kageyama@gmail.com"
-      ],
+      "likes": ["kageyama@gmail.com"],
       "id": 5,
-      "comments": [
-        {
-          "email": "kageyama@gmail.com",
-          "comment": "hello",
-          "date": "8/24/2021, 11:03:49 AM"
-        },
-        {
-          "email": "kageyama@gmail.com",
-          "comment": "whatsaaaapp",
-          "date": "8/24/2021, 11:04:50 AM"
-        }
-      ]
+      "comments": []
     },
     {
       "title": "SATURDAY HOODIE",
@@ -115,9 +74,7 @@
       "price": "60",
       "description": "THE TWENTY ONE PILOTS 'SATURDAY HOODIE' FEATURES 'SAI' IN WHITE ON THE FRONT AND 'SATURDAY' REPEATED IN WHITE DOWN THE RIGHT SLEEVE. THE BACK FEATUERS A WHITE CIRCLE TWENTY ONE PILOTS LOGO. THIS DESIGN IS PRINTED ON A UNISEX PINK, BLUE AND YELLOW TIE DYE HOODIE.",
       "status": false,
-      "likes": [
-        "kageyama@gmail.com"
-      ],
+      "likes": ["kageyama@gmail.com"],
       "id": 6,
       "comments": []
     },
@@ -128,9 +85,7 @@
       "price": "40",
       "description": "THE TWENTY ONE PILOTS 'SATURDAY LONG SLEEVE' FEATURES A COLORFUL SAI SYMBOL ON THE FRONT OF THE SHIRT AND TWENTY ONE PILOTS WRITTEN DOWN THE RIGHT SLEEVE. THE BACK FEATURES A COLORFUL 'SATURDAY' DESIGN. THIS DESIGN IS PRINTED ON A BLUE UNISEX LONG SLEEVE T-SHIRT.",
       "status": false,
-      "likes": [
-        "kageyama@gmail.com"
-      ],
+      "likes": ["kageyama@gmail.com"],
       "id": 7,
       "comments": []
     },
@@ -143,13 +98,7 @@
       "status": false,
       "likes": [],
       "id": 8,
-      "comments": [
-        {
-          "email": "bado@gmail.com",
-          "comment": "rfreferf",
-          "date": "8/24/2021, 12:55:27 AM"
-        }
-      ]
+      "comments": []
     },
     {
       "title": "SPECTRUM DRAGON HOODIE",
@@ -180,9 +129,7 @@
       "price": "60",
       "description": "THE TWENTY ONE PILOTS 'VERTIGO HOODIE' FEATURES 'TWENTY ONE PILOTS SCALED AND ICY' IN WHITE CIRCLING A DRAGON DESIGN ON THE FRONT OF THE HOODIE. THE BACK FEATURES A CIRCLE REPEATING DESIGN OF 'SHY AWAY' WITH A DRAGON IN THE MIDDLE. THIS DESIGN IS PRINTED ON A BLUE AND BLACK TIE DYE UNISEX HOODIE.",
       "status": false,
-      "likes": [
-        "oikawa@gmail.com"
-      ],
+      "likes": ["oikawa@gmail.com"],
       "id": 11,
       "comments": []
     },
@@ -226,9 +173,7 @@
       "price": "30",
       "description": "THE TWENTY ONE PILOTS 'TRENCH BIRD T-SHIRT FEATURES 'TWENTY ONE PILOTS' WRITTEN IN YELLOW ON THE FRONT IN FRONT OF THE TRENCH BIRD DESIGN. THIS DESIGN IS PRINTED ON A UNISEX GREEN T-SHIRT.",
       "status": false,
-      "likes": [
-        null
-      ],
+      "likes": [null],
       "id": 15,
       "comments": []
     },

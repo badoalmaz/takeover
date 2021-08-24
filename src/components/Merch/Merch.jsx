@@ -17,8 +17,10 @@ const useStyles = makeStyles((theme) => ({
     maxHeight: "20vh",
   },
   merchContent: {
-    marginLeft: "4vw",
-    marginRight: "4vw",
+    // marginLeft: "4vw",
+    // marginRight: "4vw",
+    display: "flex",
+    justifyContent: "space-around",
   },
 
   catalogueBar: {

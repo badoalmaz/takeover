@@ -67,7 +67,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* // minHeight: "100vh", */
+  /* min-height: "100vh"; */
 }
 
 .dragonImage {
@@ -237,10 +237,10 @@
   padding: 1.3vw 0;
 }
 
-@media only screen and (max-width: 2091px) {
+/* @media only screen and (max-width: 2091px) {
   .dragonContainer {
     height: 100vh;
-    margin: -90vh auto;
+    margin: -100vh auto;
   }
   .merchContainer {
     margin: 80vh auto;
@@ -253,7 +253,7 @@
     margin-top: 80vh;
     height: 9vh;
   }
-}
+} */
 
 @media only screen and (max-width: 1024px) {
   .tourSection {
