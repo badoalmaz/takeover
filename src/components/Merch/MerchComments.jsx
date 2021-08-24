@@ -167,9 +167,14 @@ const MerchComments = () => {
     <>
       {productDetails ? (
         <Paper
-          style={{ backgroundColor: "transparent" }}
+          style={{
+            backgroundColor: "rgb(208,185,128)",
+            borderRadius: "50px",
+            alignText: "center",
+          }}
           className={classes.paper}
         >
+          <h2 style={{ alignText: "center" }}>Comments</h2>
           <Paper
             style={{
               backgroundColor: "#00000000",
@@ -269,7 +274,7 @@ const MerchComments = () => {
                               <TextField
                                 variant="outlined"
                                 label="Edit Comment"
-                                color="secondary"
+                                color="white"
                                 style={{ width: "450px" }}
                                 onChange={(e) => handleInput(e)}
                               />
@@ -284,7 +289,7 @@ const MerchComments = () => {
                                 }
                               >
                                 <SaveIcon
-                                  color="secondary"
+                                  color="white"
                                   style={{
                                     width: "40px",
                                     height: "40px",

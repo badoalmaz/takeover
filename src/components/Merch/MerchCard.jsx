@@ -114,12 +114,6 @@ const MerchCard = ({ item }) => {
       </CardActionArea>
       <CardActions>
         <Container>
-          <Button
-            onClick={() => history.push(`/merchComments/${item.id}`)}
-            className={classes.button}
-          >
-            <TextsmsIcon />
-          </Button>
           {email === ADMIN ? (
             <>
               <Button

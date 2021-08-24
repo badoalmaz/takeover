@@ -25,27 +25,10 @@
       "status": false,
       "likes": [
         "oikawa@gmail.com",
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         "kageyama@gmail.com"
       ],
       "id": 2,
-      "comments": [
-        {
-          "email": "kageyama@gmail.com",
-          "comment": "hello",
-          "date": "8/23/2021, 8:59:26 PM"
-        },
-        {
-          "email": "kageyama@gmail.com",
-          "comment": "fjnglksdvlkfdlk",
-          "date": "8/23/2021, 9:08:06 PM"
-        }
-      ]
+      "comments": []
     },
     {
       "title": "FULL DRAGON T-SHIRT",
@@ -59,23 +42,7 @@
         "kageyama@gmail.com"
       ],
       "id": 3,
-      "comments": [
-        {
-          "email": "kageyama@gmail.com",
-          "comment": "n k k ",
-          "date": "8/23/2021, 8:04:48 PM"
-        },
-        {
-          "email": "kageyama@gmail.com",
-          "comment": "jknjknkjnk",
-          "date": "8/23/2021, 8:04:54 PM"
-        },
-        {
-          "email": "kageyama@gmail.com",
-          "comment": "jkbnkjnjn kjn kljnklnlk",
-          "date": "8/23/2021, 8:04:58 PM"
-        }
-      ]
+      "comments": []
     },
     {
       "title": "SURF DRAGON T-SHIRT",
@@ -114,18 +81,7 @@
         "kageyama@gmail.com"
       ],
       "id": 6,
-      "comments": [
-        {
-          "email": "kageyama@gmail.com",
-          "comment": "jknsfljknwjkelf",
-          "date": "2021-08-23T13:16:22.825Z"
-        },
-        {
-          "email": "kageyama@gmail.com",
-          "comment": "jfnkjeanfks",
-          "date": "8/23/2021, 7:18:18 PM"
-        }
-      ]
+      "comments": []
     },
     {
       "title": "SATURDAY LONG SLEEVE",
@@ -149,7 +105,13 @@
       "status": false,
       "likes": [],
       "id": 8,
-      "comments": []
+      "comments": [
+        {
+          "email": "bado@gmail.com",
+          "comment": "rfreferf",
+          "date": "8/24/2021, 12:55:27 AM"
+        }
+      ]
     },
     {
       "title": "SPECTRUM DRAGON HOODIE",
