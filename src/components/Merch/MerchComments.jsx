@@ -306,7 +306,7 @@ const MerchComments = () => {
                                 color="secondary"
                                 style={{
                                   width: "450px",
-                                  background: "#EC87B2",
+                                  // background: "#EC87B2",
                                 }}
                                 onChange={(e) => handleInput(e)}
                               />

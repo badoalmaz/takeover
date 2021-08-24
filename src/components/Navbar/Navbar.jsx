@@ -99,6 +99,11 @@ const MainNavbar = ({ handleLogout }) => {
             <Link to="/chat">
               <Navbar.Brand style={navFont}>CHAT</Navbar.Brand>
             </Link>
+            <Navbar.Brand style={navMid}> | </Navbar.Brand>
+
+            <Link to="/contactUs">
+              <Navbar.Brand style={navFont}>CONTACT US</Navbar.Brand>
+            </Link>
           </Nav>
           <Nav>
             {email ? (

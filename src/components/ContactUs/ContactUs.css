@@ -1,0 +1,23 @@
+.contactUsContainer {
+  /* background-color: black; */
+  /* background-image: url("https://www.bringthenoiseuk.com/wordpress/wp-content/uploads/Twenty-One-Pilots-2020.jpg"); */
+  background-image: url("https://i.redd.it/amer6bcd5fr61.png");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: "center";
+  background-repeat: "no-repeat";
+  background-size: cover;
+}
+.contactUsform {
+  /* margin-top: 10vw; */
+  /* background-color: tomato; */
+  text-align: center;
+  /* width: fit-content; */
+}
+
+.form-control {
+  background-color: transparent;
+}
+.inputsCol {
+  background-color: tomato;
+}

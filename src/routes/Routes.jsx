@@ -8,6 +8,7 @@ import ForgotPassword from "../components/Authentication /ForgotPassword";
 import Cart from "../components/Cart/Cart";
 // import Cart from "../components/Cart/Cart";
 import Favorites from "../components/Cart/Favorites";
+import ContactUs from "../components/ContactUs/ContactUs";
 
 import MailContainer from "../components/Footer/MailContainer";
 import Homepage from "../components/Homepage/Homepage";
@@ -47,6 +48,7 @@ const Routes = () => {
             <Route exact path="/bot" component={TelegramBot} />
             {/* <Route exact path="/merchComments/:id" component={MerchComments} /> */}
             <Route exact path="/emails" component={SubscribeEmails} />
+            <Route exact path="/contactUs" component={ContactUs} />
           </Switch>
         </ProductContextProvider>
       </AuthContextProvider>
