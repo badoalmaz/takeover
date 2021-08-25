@@ -183,8 +183,8 @@ const MerchComments = () => {
           }}
           className={classes.paper}
         >
-          <h2 style={{ margin: "2vh 30vw", color: "grey", fontSize: "36px" }}>
-            Comments
+          <h2 style={{ margin: "2vh 30vw", color: "white", fontSize: "36px" }}>
+            COMMENTS
           </h2>
           <Paper
             style={{

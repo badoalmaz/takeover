@@ -14,7 +14,7 @@ const AuthContextProvider = ({ children }) => {
   const [emailError, setEmailError] = useState("");
   const [passwordError, setPasswordError] = useState("");
   const [hasAccount, setHasAccount] = useState(false);
-  const [currentUser, setCurrentUser] = useState();
+  // const [currentUser, setCurrentUser] = useState();
 
   const clearInputs = () => {
     setEmail("");
@@ -85,19 +85,18 @@ const AuthContextProvider = ({ children }) => {
     const auth = fire.auth();
     return auth.sendPasswordResetEmail(email);
   }
-  function updateEmail(email) {
-    return currentUser.updateEmail(email);
-  }
-  function updatePassword(password) {
-    return currentUser.updatePassword(password);
-  }
+  // function updateEmail(email) {
+  //   return currentUser.updateEmail(email);
+  // }
+  // function updatePassword(password) {
+  //   return currentUser.updatePassword(password);
+  // }
   //reset password
 
   const values = {
     email,
     user,
     handleLogout,
-
     setEmail,
     password,
     setPassword,
@@ -109,9 +108,9 @@ const AuthContextProvider = ({ children }) => {
     passwordError,
 
     resetPassword,
-    updateEmail,
-    updatePassword,
-    currentUser,
+    // updateEmail,
+    // updatePassword,
+    // currentUser,
   };
 
   return (

@@ -363,22 +363,45 @@ const Homepage = () => {
           >
             SOMETIMES QUIET IS VIOLENT
             <br />
-            <Link to="/chat">
-              <Button
-                className="dragonBtnA"
-                // style={dragonBtnA}
-              >
-                JOIN OUR CHAT
-              </Button>
-            </Link>
-            <Link to="/mailSubscription">
-              <Button
-                className="dragonBtnA"
-                // style={dragonBtnA}
-              >
-                SUBSCRIBE TO OUR NEWS
-              </Button>
-            </Link>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                // backgroundAttachment: "fixed",
+              }}
+            >
+              <MailContainer />
+            </div>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <Link to="/chat">
+                <Button
+                  style={{ margin: " 2vw" }}
+                  className="dragonBtnA"
+                  // style={dragonBtnA}
+                >
+                  JOIN OUR CHAT
+                </Button>
+              </Link>
+              {/* <Link to="/mailSubscription">
+                <Button
+                  style={{ margin: "auto 2vw" }}
+                  className="dragonBtnA"
+                  // style={dragonBtnA}
+                >
+                  SUBSCRIBE TO OUR NEWS
+                </Button>
+              </Link> */}
+              <Link to="/contactUs">
+                <Button
+                  style={{ margin: " 2vw" }}
+                  className="dragonBtnA"
+                  // style={dragonBtnA}
+                >
+                  CONTACT US
+                </Button>
+              </Link>
+            </div>
           </span>
         </div>
 

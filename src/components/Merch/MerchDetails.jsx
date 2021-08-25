@@ -7,6 +7,7 @@ import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import ButtonBase from "@material-ui/core/ButtonBase";
 import MerchComments from "./MerchComments";
+import MerchTop from "./MerchTop";
 
 const useStyles = makeStyles((theme) => ({
   back: {
@@ -112,6 +113,7 @@ const MerchDetails = () => {
             </div>
           </Grid>
           <div style={{ marginTop: "35vh" }}>
+            <MerchTop />
             <MerchComments />
           </div>
         </Paper>

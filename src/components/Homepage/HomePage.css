@@ -187,8 +187,8 @@
 
 .chatQuote {
   color: #fff;
-  font-size: 10vw;
-  font-family: "'Aclonica', sans-serif";
+  font-size: 9vw;
+  font-family: "Aclonica", sans-serif;
 }
 
 .mailContainer {
@@ -295,7 +295,7 @@
   }
 }
 
-@media only screen and (max-width: 411px) {
+@media all and (max-width: 411px) {
   .tourSection {
     top: 20%;
   }
@@ -355,9 +355,9 @@
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media all and (max-width: 375px) {
   .tourSection {
-    top: 15%;
+    top: 20%;
   }
   .dragonContainer {
     height: 30vh;
@@ -396,12 +396,12 @@
   }
   .tourBtnA {
     max-width: 80.875vw;
-    font-size: 12px;
+    font-size: 10px;
     height: 4vh;
   }
   .dragonBtnA {
     max-width: 80.875vw;
-    font-size: 12px;
+    font-size: 10px;
     height: 4vh;
   }
   .navFont {
@@ -415,7 +415,7 @@
   }
 }
 
-@media only screen and (max-width: 414px) {
+/* @media only screen and (max-width: 414px) {
   .tourSection {
     top: 25%;
   }
@@ -436,7 +436,7 @@
   .merchWrap {
     display: flex;
     flex-direction: column;
-    /* text-align: center; */
+  
   }
   .merchImage {
     width: 40vw;
@@ -473,4 +473,4 @@
   .copyrightWrapper {
     font-size: 2vw;
   }
-}
+} */

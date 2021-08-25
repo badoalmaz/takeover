@@ -15,6 +15,7 @@ import Homepage from "../components/Homepage/Homepage";
 import Merch from "../components/Merch/Merch";
 // import MerchComments from "../components/Merch/MerchComments";
 import MerchDetails from "../components/Merch/MerchDetails";
+import MerchTop from "../components/Merch/MerchTop";
 
 import MainNavbar from "../components/Navbar/Navbar";
 import PayForm from "../components/Payment/PayForm";
@@ -46,8 +47,9 @@ const Routes = () => {
             <Route exact path="/mailSubscription" component={MailContainer} />
             <Route exact path="/payform" component={PayForm} />
             <Route exact path="/bot" component={TelegramBot} />
+            <Route exact path="/merchTop" component={MerchTop} />
             {/* <Route exact path="/merchComments/:id" component={MerchComments} /> */}
-            <Route exact path="/emails" component={SubscribeEmails} />
+            {/* <Route exact path="/emails" component={SubscribeEmails} /> */}
             <Route exact path="/contactUs" component={ContactUs} />
           </Switch>
         </ProductContextProvider>

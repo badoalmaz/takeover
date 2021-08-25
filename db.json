@@ -33,6 +33,11 @@
           "email": "bado.kuldzhanova@gmail.com",
           "comment": "omg, i like it",
           "date": "8/25/2021, 1:06:31 AM"
+        },
+        {
+          "email": "bado.kuldzhanova@gmail.com",
+          "comment": "perfect",
+          "date": "8/25/2021, 2:02:59 AM"
         }
       ]
     },
@@ -59,7 +64,8 @@
       "description": "THE TWENTY ONE PILOTS 'SURF DRAGON T-SHIRT' FEATURES A SCALED AND ICY DRAGON DESIGN ON THE FRONT OF THE SHIRT. THIS DESIGN IS PRINTED ON A TIE DYE LIGHT BLUE UNISEX T-SHIRT.",
       "status": false,
       "likes": [
-        "kageyama@gmail.com"
+        "kageyama@gmail.com",
+        "bado.kuldzhanova@gmail.com"
       ],
       "id": 4,
       "comments": []
@@ -85,7 +91,8 @@
       "description": "THE TWENTY ONE PILOTS 'SATURDAY HOODIE' FEATURES 'SAI' IN WHITE ON THE FRONT AND 'SATURDAY' REPEATED IN WHITE DOWN THE RIGHT SLEEVE. THE BACK FEATUERS A WHITE CIRCLE TWENTY ONE PILOTS LOGO. THIS DESIGN IS PRINTED ON A UNISEX PINK, BLUE AND YELLOW TIE DYE HOODIE.",
       "status": false,
       "likes": [
-        "kageyama@gmail.com"
+        "kageyama@gmail.com",
+        "bado.kuldzhanova@gmail.com"
       ],
       "id": 6,
       "comments": []
