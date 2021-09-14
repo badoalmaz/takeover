@@ -7,10 +7,47 @@ import MainNavbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import MailContainer from "../Footer/MailContainer";
 import "./HomePage.css";
+import { IconButton } from "@material-ui/core";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import InstagramIcon from "@material-ui/icons/Instagram";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import YouTubeIcon from "@material-ui/icons/YouTube";
+import { useState } from "react";
 
+import fire from "../../firebase/fire";
+import firebase from "firebase/app";
+
+import { makeStyles } from "@material-ui/core";
+
+const firestore = fire.firestore();
 const Homepage = () => {
   const { handleLogout, user } = useAuth();
   AOS.init();
+
+  // for emails
+  const [input, setInput] = useState("");
+  const [message, setMessage] = useState("");
+
+  const inputHandler = (e) => {
+    setInput(e.target.value);
+  };
+  const submitHandler = (e) => {
+    e.preventDefault();
+    if (input) {
+      console.log(input);
+      // add to firebase
+      firestore.collection("emails").add({
+        email: input,
+        time: firebase.firestore.FieldValue.serverTimestamp(),
+      });
+      setInput("");
+      setMessage("Thank you for Subscribing!!!");
+      setTimeout(() => {
+        setMessage("");
+      }, 3000);
+    }
+  };
   // let homepageBg = {
   //   width: "100%",
   //   height: "auto",
@@ -371,7 +408,7 @@ const Homepage = () => {
                 // backgroundAttachment: "fixed",
               }}
             >
-              <MailContainer />
+              {/* <MailContainer /> */}
             </div>
             <div style={{ display: "flex", justifyContent: "center" }}>
               <Link to="/chat">
@@ -392,7 +429,7 @@ const Homepage = () => {
                   SUBSCRIBE TO OUR NEWS
                 </Button>
               </Link> */}
-              <Link to="/contactUs">
+              {/* <Link to="/contactUs">
                 <Button
                   style={{ margin: " 2vw" }}
                   className="dragonBtnA"
@@ -400,7 +437,7 @@ const Homepage = () => {
                 >
                   CONTACT US
                 </Button>
-              </Link>
+              </Link> */}
             </div>
           </span>
         </div>
@@ -459,6 +496,99 @@ const Homepage = () => {
           </div> */}
 
           <div
+            className="col-12"
+            style={
+              {
+                // backgroundColor: "rgba(0,0,0,0.5)",
+              }
+            }
+          >
+            <footer className=" text-center text-white">
+              <div className="container p-4">
+                <section className="mb-4">
+                  <IconButton className="btn btn-outline-light btn-floating text-white m-1">
+                    <FacebookIcon color="primery" />
+                  </IconButton>
+
+                  <IconButton className="btn btn-outline-light btn-floating text-white m-1">
+                    <TwitterIcon color="primery" />
+                  </IconButton>
+
+                  <IconButton className="btn btn-outline-light btn-floating text-white m-1">
+                    <InstagramIcon color="primery" />
+                  </IconButton>
+
+                  <IconButton className="btn btn-outline-light btn-floating text-white m-1">
+                    <LinkedInIcon color="primery" />
+                  </IconButton>
+
+                  <IconButton className="btn btn-outline-light btn-floating text-white m-1">
+                    <YouTubeIcon color="primery" />
+                  </IconButton>
+                </section>
+
+                <section className="">
+                  <form action="" onSubmit={submitHandler}>
+                    <div className="row d-flex justify-content-center">
+                      <div className="col-auto">
+                        <p className="pt-2">
+                          <strong>Sign up for our newsletter</strong>
+                        </p>
+                      </div>
+
+                      <div className="col-md-5 col-12">
+                        <div className="form-outline form-white mb-4">
+                          <input
+                            type="email"
+                            id="form5Example2"
+                            className="form-control"
+                            onChange={inputHandler}
+                            value={input}
+                          />
+                          <label className="form-label" for="form5Example2">
+                            Email address
+                          </label>
+                        </div>
+                      </div>
+
+                      <div className="col-auto">
+                        <button
+                          type="submit"
+                          className="btn btn-outline-light mb-4"
+                        >
+                          Subscribe
+                        </button>
+                      </div>
+                      {message && (
+                        <span className="emailMessage">{message}</span>
+                      )}
+                    </div>
+                  </form>
+                </section>
+
+                {/* <section className="mb-4">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sunt distinctio earum repellat quaerat voluptatibus placeat
+                    nam, commodi optio pariatur est quia magnam eum harum
+                    corrupti dicta, aliquam sequi voluptate quas.
+                  </p>
+                </section> */}
+              </div>
+
+              {/* <div
+                className="text-center p-3"
+                // style={{ backgroundColor: "rgba(255, 255, 255, .4)" }}
+              >
+                © 2021
+                <a className="text-white" href="https://mdbootstrap.com/">
+                  Plantarium.com
+                </a>
+              </div> */}
+            </footer>
+          </div>
+
+          {/* <div
             style={{
               display: "flex",
               justifyContent: "space-evenly",
@@ -515,7 +645,7 @@ const Homepage = () => {
             >
               FACEBOOK
             </a>
-          </div>
+          </div> */}
 
           {/* <a style={navFont} href="#" target="_blank">
             SUBSCRIBE TO OUR NEWS
@@ -525,6 +655,7 @@ const Homepage = () => {
         <div
           // style={footerContainer}
           className="footerContainer"
+          // style={{ marginTop: "10vh" }}
         >
           <div
             className="footerWrap"

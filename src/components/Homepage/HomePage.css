@@ -6,7 +6,7 @@
   margin: 0;
   outline: 0;
   padding: 0;
-  vertical-align: baseline;
+  /* vertical-align: baseline; */
 }
 
 .tourSection {
@@ -203,7 +203,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 14vh;
+  height: 28vh;
 }
 .footerContainer {
   position: relative;
@@ -235,6 +235,21 @@
   max-width: 40vw;
   margin: 0 auto;
   padding: 1.3vw 0;
+}
+
+.emailMessage {
+  /* position: relative; */
+  /* padding: 0.4rem; */
+  /* margin: -0.5rem; */
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  background: rgba(231, 117, 197, 0.1);
+  backdrop-filter: blur(10px);
+  z-index: 3;
+  /* max-width: 40vw; */
 }
 
 /* @media only screen and (max-width: 2091px) {

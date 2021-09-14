@@ -1,6 +1,5 @@
 import { useState } from "react";
-// import styled from "styled-components";
-// import UiComponents from "./UiComponents";
+
 import fire from "../../firebase/fire";
 import firebase from "firebase/app";
 import React from "react";

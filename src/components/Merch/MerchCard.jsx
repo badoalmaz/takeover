@@ -9,7 +9,7 @@ import DeleteOutlineIcon from "@material-ui/icons/DeleteOutline";
 import ReceiptIcon from "@material-ui/icons/Receipt";
 import AddShoppingCartIcon from "@material-ui/icons/AddShoppingCart";
 import { Container, IconButton } from "@material-ui/core";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useProducts } from "../../contexts/ProductContext";
 import { useAuth } from "../../contexts/AuthContextProvider";
 import { ADMIN } from "../../helpers/consts";
@@ -61,7 +61,7 @@ const useStyles = makeStyles((theme) => ({
 
 const MerchCard = ({ item }) => {
   const classes = useStyles();
-  const [likeCount, setLikeCount] = useState(item.likes.length);
+  const [likeCount, setLikeCount] = useState(item?.likes?.length);
   const [like, setLike] = useState(false);
   const {
     user: { email },
@@ -101,71 +101,83 @@ const MerchCard = ({ item }) => {
   return (
     <Card className={classes.root}>
       <CardActionArea>
-        <NavLink to={`/merchDetails/${item.id}`}>
-          <div className={classes.figure}>
-            <CardMedia component="img" image={item.img} />
-            <div className="appear-item">
-              <span>{item.title}</span>
+        {/* <NavLink to={`/merchDetails/${item.id}`}>
+          </NavLink> */}
+        <div className={classes.figure}>
+          <CardMedia component="img" image={item.img} />
+          <div className="appear-item">
+            <Link
+              style={{ color: "secondary" }}
+              to={`/merchDetails/${item.id}`}
+            >
+              <span> ...</span>
+            </Link>
+            <span>{item.title}</span>
 
-              <span> {item.price}$</span>
-            </div>
+            <span> {item.price}$</span>
+
+            {/* </div>
           </div>
         </NavLink>
-      </CardActionArea>
-      <CardActions>
-        <Container>
-          {email === ADMIN ? (
-            <>
-              <Button
-                onClick={() => history.push(`/edit/${item.id}`)}
-                className={classes.button}
-              >
-                <ReceiptIcon />
-              </Button>
-              <Button
-                className={classes.button}
-                onClick={() => deleteProduct(item.id)}
-                // style={{
-                //   backgroundColor: "rgba(1, 1, 1, .5",
-                //   borderRadius: "10px",
-                //   color: "white",
-                //   borderColor: "#eebb4f",
-                //   fontFamily: '"Merienda"',
-                //   margin: "8px",
-                //   height: "6vh",
-                // }}
-              >
-                <DeleteOutlineIcon />
-              </Button>
-            </>
-          ) : (
-            <>
-              <IconButton
-                color={checkProductInCart(item.id) ? "secondary" : ""}
-                onClick={() => addProductToCart(item)}
-                aria-label="add to cart"
-              >
-                <AddShoppingCartIcon />
-              </IconButton>
+      </CardActionArea> */}
+            <CardActions>
+              <Container>
+                {email === ADMIN ? (
+                  <>
+                    <Button
+                      onClick={() => history.push(`/edit/${item.id}`)}
+                      className={classes.button}
+                    >
+                      <ReceiptIcon />
+                    </Button>
+                    <Button
+                      className={classes.button}
+                      onClick={() => deleteProduct(item.id)}
+                      // style={{
+                      //   backgroundColor: "rgba(1, 1, 1, .5",
+                      //   borderRadius: "10px",
+                      //   color: "white",
+                      //   borderColor: "#eebb4f",
+                      //   fontFamily: '"Merienda"',
+                      //   margin: "8px",
+                      //   height: "6vh",
+                      // }}
+                    >
+                      <DeleteOutlineIcon />
+                    </Button>
+                  </>
+                ) : (
+                  <>
+                    <IconButton
+                      color={checkProductInCart(item.id) ? "secondary" : ""}
+                      onClick={() => addProductToCart(item)}
+                      aria-label="add to cart"
+                    >
+                      <AddShoppingCartIcon />
+                    </IconButton>
 
-              <IconButton
-                color={checkProductInFavs(item.id) ? "secondary" : ""}
-                onClick={() => addProductToFavs(item)}
-                aria-label="add to favs"
-              >
-                <StarBorderIcon />
-              </IconButton>
-              <IconButton
-                color={like ? "secondary" : ""}
-                onClick={() => addUserLike(email, item.id)}
-              >
-                <ThumbUpAltIcon />
-                {likeCount}
-              </IconButton>
-            </>
-          )}
-        </Container>
-      </CardActions>
+                    <IconButton
+                      color={checkProductInFavs(item.id) ? "secondary" : ""}
+                      onClick={() => addProductToFavs(item)}
+                      aria-label="add to favs"
+                    >
+                      <StarBorderIcon />
+                    </IconButton>
+                    <IconButton
+                      color={like ? "secondary" : ""}
+                      onClick={() => addUserLike(email, item.id)}
+                    >
+                      <ThumbUpAltIcon />
+                      {likeCount}
+                    </IconButton>
+                  </>
+                )}
+              </Container>
+            </CardActions>
+          </div>
+        </div>
+        {/* </NavLink> */}
+      </CardActionArea>
     </Card>
   );
 };

@@ -10,7 +10,6 @@ export default function ContactUs() {
     emailjs
       .sendForm(
         "service_g31xhv4",
-
         "template_mmn362a",
         e.target,
         "user_iJB3JaCH2N7dFs2yDe49O"

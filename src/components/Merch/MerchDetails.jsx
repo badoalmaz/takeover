@@ -114,6 +114,8 @@ const MerchDetails = () => {
           </Grid>
           <div style={{ marginTop: "35vh" }}>
             <MerchTop />
+          </div>
+          <div style={{ marginTop: "15vh" }}>
             <MerchComments />
           </div>
         </Paper>

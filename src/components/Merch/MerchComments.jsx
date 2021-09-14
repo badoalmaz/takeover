@@ -22,6 +22,7 @@ const useStyles = makeStyles((theme) => ({
   //     flexGrow: 1,
   //   },
   paper: {
+    // minHeight: "50vh",
     //   padding: theme.spacing(2),
     //   margin: "auto",
     //   maxWidth: "100%",
@@ -171,6 +172,7 @@ const MerchComments = () => {
       {productDetails ? (
         <Paper
           style={{
+            minHeight: "50vh",
             // backgroundColor: "rgb(208,185,128)",
             outline: "none",
             border: "none",
@@ -337,7 +339,7 @@ const MerchComments = () => {
                   ) : (
                     <></>
                   )}
-                  <form style={{ margin: "3vw 8vw 0 7vw" }}>
+                  <form style={{ margin: "15vw 8vw 0 7vw" }}>
                     <TextField
                       // variant="outlisned"
                       label="Comment"

@@ -1,21 +1,6 @@
 {
   "products": [
     {
-      "title": "SATURDAY T-SHIRT",
-      "type": "SCALED AND ICY",
-      "img": "https://media-us.cdn.prod.wmgecom.com/media/catalog/product/cache/173/image/1200x/9df78eab33525d08d6e5fb8d27136e95/0/7/070921_top-saturday_productimages_shortsleeve_4a.png",
-      "price": "30",
-      "description": "THE TWENTY ONE PILOTS 'SATURDAY T-SHIRT' FEATURES A SATURDAY SCALED AND ICY LOGO ON FRONT AND A BLACK AND WHITE IMAGE OF THE BAND ON THE BACK. THIS DESIGN IS PRINTED ON A RAINBOW TIE DYE UNISEX T-SHIRT.",
-      "status": false,
-      "likes": [
-        "oikawa@gmail.com",
-        "kageyama@gmail.com",
-        "bado.kuldzhanova@gmail.com"
-      ],
-      "id": 1,
-      "comments": []
-    },
-    {
       "title": "ELECTRIC BOX T-SHIRT",
       "type": "SCALED AND ICY",
       "img": "https://media-us.cdn.prod.wmgecom.com/media/catalog/product/cache/173/image/1200x/9df78eab33525d08d6e5fb8d27136e95/m/e/merch-13-1.png",
@@ -23,21 +8,15 @@
       "description": "THE TWENTY ONE PILOTS 'ELECTRIC BOX T-SHIRT' FEATURES A BLUE AND PINK DRAGON BOX DESIGN ON THE FRONT OF THE SHIRT AND 'TWENTY ONE PILOTS SCALED AND ICY' IN A CIRCLE ON THE BACK. THIS DESIGN IS PRINTED ON A BLACK UNISEX T-SHIRT.",
       "status": false,
       "likes": [
-        "oikawa@gmail.com",
-        "kageyama@gmail.com",
-        "bado.kuldzhanova@gmail.com"
+        "oikawa@gmail.com"
       ],
       "id": 2,
       "comments": [
+        {},
         {
           "email": "bado.kuldzhanova@gmail.com",
-          "comment": "omg, i like it",
-          "date": "8/25/2021, 1:06:31 AM"
-        },
-        {
-          "email": "bado.kuldzhanova@gmail.com",
-          "comment": "perfect",
-          "date": "8/25/2021, 2:02:59 AM"
+          "comment": "good",
+          "date": "9/6/2021, 1:48:57 PM"
         }
       ]
     },
@@ -50,8 +29,7 @@
       "status": false,
       "likes": [
         "oikawa@gmail.com",
-        "kageyama@gmail.com",
-        "bado.kuldzhanova@gmail.com"
+        "kageyama@gmail.com"
       ],
       "id": 3,
       "comments": []
@@ -64,8 +42,10 @@
       "description": "THE TWENTY ONE PILOTS 'SURF DRAGON T-SHIRT' FEATURES A SCALED AND ICY DRAGON DESIGN ON THE FRONT OF THE SHIRT. THIS DESIGN IS PRINTED ON A TIE DYE LIGHT BLUE UNISEX T-SHIRT.",
       "status": false,
       "likes": [
-        "kageyama@gmail.com",
-        "bado.kuldzhanova@gmail.com"
+        null,
+        null,
+        "bado.kuldzhanova@gmail.com",
+        "kageyama@gmail.com"
       ],
       "id": 4,
       "comments": []
@@ -78,6 +58,7 @@
       "description": "THE TWENTY ONE PILOTS 'VERTIGO T-SHIRT' FEATURES A CIRCLE DRAGON DESIGN AND 'TWENTY ONE PILOTS SHY AWAY' ON THE FRONT OF THE SHIRT. THE BACK FEATURES A CIRCLE REPEATING DESIGN OF 'SHY AWAY' WITH A DRAGON IN THE MIDDLE. THIS DESIGN IS PRINTED ON A BLACK UNISEX T-SHIRT.",
       "status": false,
       "likes": [
+        "bado.kuldzhanova@gmail.com",
         "kageyama@gmail.com"
       ],
       "id": 5,
@@ -105,7 +86,8 @@
       "description": "THE TWENTY ONE PILOTS 'SATURDAY LONG SLEEVE' FEATURES A COLORFUL SAI SYMBOL ON THE FRONT OF THE SHIRT AND TWENTY ONE PILOTS WRITTEN DOWN THE RIGHT SLEEVE. THE BACK FEATURES A COLORFUL 'SATURDAY' DESIGN. THIS DESIGN IS PRINTED ON A BLUE UNISEX LONG SLEEVE T-SHIRT.",
       "status": false,
       "likes": [
-        "kageyama@gmail.com"
+        "kageyama@gmail.com",
+        "bado.kuldzhanova@gmail.com"
       ],
       "id": 7,
       "comments": []
@@ -151,7 +133,8 @@
       "description": "THE TWENTY ONE PILOTS 'VERTIGO HOODIE' FEATURES 'TWENTY ONE PILOTS SCALED AND ICY' IN WHITE CIRCLING A DRAGON DESIGN ON THE FRONT OF THE HOODIE. THE BACK FEATURES A CIRCLE REPEATING DESIGN OF 'SHY AWAY' WITH A DRAGON IN THE MIDDLE. THIS DESIGN IS PRINTED ON A BLUE AND BLACK TIE DYE UNISEX HOODIE.",
       "status": false,
       "likes": [
-        "oikawa@gmail.com"
+        "oikawa@gmail.com",
+        "bado.kuldzhanova@gmail.com"
       ],
       "id": 11,
       "comments": []
@@ -294,7 +277,7 @@
       "title": "BLURRYFACE T-SHIRT",
       "type": "BLURRYFACE",
       "img": "https://media-us.cdn.prod.wmgecom.com/media/catalog/product/cache/173/image/1200x/9df78eab33525d08d6e5fb8d27136e95/t/o/top_blurryface_t-shirt.jpg.jpeg",
-      "price": "25",
+      "price": "250",
       "description": "THE JUMPSUIT HAT BUNDLE HERE FEATURES AN ADJUSTABLE YELLOW DAD HAT STYLE WITH THE LYRICS “JUMPSUIT COVER ME” PRINTED AROUND A DESIGN FROM THE TRENCH ALBUM ARTWORK. PURCHASE OF THIS HAT ALSO INCLUDES A DIGITAL DOWNLOAD OF THE ALBUM.",
       "status": false,
       "likes": [],
@@ -357,21 +340,10 @@
       "comments": []
     },
     {
-      "title": "HOLIDAY JUNIORS T-SHIRT",
-      "type": "VESSEL",
-      "img": "https://media-us.cdn.prod.wmgecom.com/media/catalog/product/cache/173/image/1200x/9df78eab33525d08d6e5fb8d27136e95/1/1/111720_top_merch_tshirt_tiedyewomens.png",
-      "price": "30",
-      "description": "THE TWENTY ONE PILOTS 'VINTAGE BLOCK HOLIDAY JUNIORS T-SHIRT' FEATURES A RED, WHITE AND BLUE 'TWENTY ONE PILOTS' LOGO ON THE FRONT OF A BLUE AND WHITE UNISEX TIE DYE T-SHIRT.",
-      "status": false,
-      "likes": [],
-      "id": 30,
-      "comments": []
-    },
-    {
       "title": "SYMBOLIC HOODIE",
       "type": "VESSEL",
       "img": "https://media-us.cdn.prod.wmgecom.com/media/catalog/product/cache/173/image/1200x/9df78eab33525d08d6e5fb8d27136e95/t/o/top_webstore_newstore_itemcutouts_1100x1100_symbolic_a_hoodie.jpg",
-      "price": "40",
+      "price": "400",
       "description": "THE TWENTY ONE PILOTS HOODIE HERE IS PRINTED ON A BLACK INDEPENDENT TRADING COMPANY BRAND ZIP UP HOODIE. 80% COTTON, 20% POLYESTER.",
       "status": false,
       "likes": [],

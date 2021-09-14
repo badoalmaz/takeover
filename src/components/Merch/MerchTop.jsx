@@ -72,7 +72,7 @@ const MerchTop = () => {
     let arrCount = [];
     const { data } = await axios(`${JSON_API_PRODUCTS}`);
     data.forEach((elem) => {
-      if (elem.likes.length > 0) {
+      if (elem?.likes?.length > 0) {
         arrCount.push(elem);
       }
     });

@@ -2,7 +2,6 @@ import React, { createContext, useContext, useEffect, useState } from "react";
 import fire from "../../src/firebase/fire";
 
 export const authContext = createContext();
-
 export const useAuth = () => {
   return useContext(authContext);
 };
@@ -14,7 +13,6 @@ const AuthContextProvider = ({ children }) => {
   const [emailError, setEmailError] = useState("");
   const [passwordError, setPasswordError] = useState("");
   const [hasAccount, setHasAccount] = useState(false);
-  // const [currentUser, setCurrentUser] = useState();
 
   const clearInputs = () => {
     setEmail("");
@@ -79,18 +77,12 @@ const AuthContextProvider = ({ children }) => {
   useEffect(() => {
     authListener();
   }, []);
-  //reset password
 
+  //reset password
   function resetPassword(email) {
     const auth = fire.auth();
     return auth.sendPasswordResetEmail(email);
   }
-  // function updateEmail(email) {
-  //   return currentUser.updateEmail(email);
-  // }
-  // function updatePassword(password) {
-  //   return currentUser.updatePassword(password);
-  // }
   //reset password
 
   const values = {
@@ -108,9 +100,6 @@ const AuthContextProvider = ({ children }) => {
     passwordError,
 
     resetPassword,
-    // updateEmail,
-    // updatePassword,
-    // currentUser,
   };
 
   return (
